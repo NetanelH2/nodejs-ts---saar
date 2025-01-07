@@ -1,11 +1,11 @@
 import express from 'express'
-import {connectToDB} from './utils/dbConnection.js'
+import {connectToDB} from './utils/dbConnection'
 
-import userRouter from './routes/users.js'
-import postRouter from './routes/posts.js'
-import countryRouter from './routes/country.js'
-import cityRouter from './routes/city.js'
-import streetRouter from './routes/street.js'
+import userRouter from './routes/users'
+import postRouter from './routes/posts'
+import countryRouter from './routes/country'
+import cityRouter from './routes/city'
+import streetRouter from './routes/street'
 
 await connectToDB()
 

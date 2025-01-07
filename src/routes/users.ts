@@ -1,11 +1,11 @@
 import {Router} from 'express'
-import User from '../models/users.js'
+import User from '../models/users'
 import {
   checkUserByIdValidation,
   createUserValidation,
   updateUserValidation,
-} from '../validation/user.js'
-import {sanitizeDataRequest} from '../utils/sanitizeDataRequestUtil.js'
+} from '../validation/user'
+import {sanitizeDataRequest} from '../utils/sanitizeDataRequestUtil'
 
 const router = Router()
 

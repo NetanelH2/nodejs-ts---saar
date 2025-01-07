@@ -1,10 +1,12 @@
 {
   "name": "nodejs-ts-saar",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "dist/app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon"
+    "dev": "nodemon --exec 'tsx' src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +25,7 @@
     "@types/node": "^22.10.5",
     "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
     "typescript": "^5.7.2"
   }
 }

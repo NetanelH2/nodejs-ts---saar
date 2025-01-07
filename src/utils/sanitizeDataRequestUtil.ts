@@ -1,4 +1,4 @@
-import purify from './sanitize.js'
+import purify from './sanitize'
 
 export const sanitizeDataRequest = (data) => {
   if (typeof data === 'string') {

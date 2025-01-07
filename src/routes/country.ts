@@ -1,7 +1,7 @@
 import {Router} from 'express'
-import Country from '../models/country.js'
-import {createCountryValidation} from '../validation/country.js'
-import {sanitizeDataRequest} from '../utils/sanitizeDataRequestUtil.js'
+import Country from '../models/country'
+import {createCountryValidation} from '../validation/country'
+import {sanitizeDataRequest} from '../utils/sanitizeDataRequestUtil'
 
 const router = Router()
 

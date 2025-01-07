@@ -1,6 +1,6 @@
 import {Router} from 'express'
-import City from '../models/city.js'
-import {createCityValidation} from '../validation/city.js'
+import City from '../models/city'
+import {createCityValidation} from '../validation/city'
 
 const router = Router()
 

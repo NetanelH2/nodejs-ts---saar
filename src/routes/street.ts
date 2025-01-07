@@ -1,7 +1,7 @@
 import {Router} from 'express'
-import Street from '../models/street.js'
-import {sanitizeDataRequest} from '../utils/sanitizeDataRequestUtil.js'
-import {createStreetValidation} from '../validation/street.js'
+import Street from '../models/street'
+import {sanitizeDataRequest} from '../utils/sanitizeDataRequestUtil'
+import {createStreetValidation} from '../validation/street'
 
 const router = Router()
 

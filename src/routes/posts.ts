@@ -4,9 +4,9 @@ import {
   checkPostTitleValidation,
   createPostValidation,
   updatePostValidation,
-} from '../validation/post.js'
-import Post from '../models/posts.js'
-import {sanitizeDataRequest} from '../utils/sanitizeDataRequestUtil.js'
+} from '../validation/post'
+import Post from '../models/posts'
+import {sanitizeDataRequest} from '../utils/sanitizeDataRequestUtil'
 
 const router = Router()
 
