@@ -2,6 +2,7 @@
   "name": "nodejs-ts - saar",
   "version": "1.0.0",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon"
   },
@@ -11,6 +12,7 @@
   "description": "",
   "dependencies": {
     "dompurify": "^3.2.2",
+    "dotenv": "^16.4.7",
     "express": "^4.21.1",
     "joi": "^17.13.3",
     "jsdom": "^25.0.1",
