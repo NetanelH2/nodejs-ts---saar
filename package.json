@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-ts - saar",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dompurify": "^3.2.2",
+    "express": "^4.21.1",
+    "joi": "^17.13.3",
+    "jsdom": "^25.0.1",
+    "mongoose": "^8.8.4"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.5",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
